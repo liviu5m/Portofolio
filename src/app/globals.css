@@ -2,26 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  box-sizing: border-box;
+  transition-duration: .25s;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+input, textarea {
+  z-index: 9999;
+  position: relative;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9 !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bg-navy {
+  background-color: #2c3e50  ;
+}
+
+.bg-purple {
+  background-color: #8739f9;
+}
+
+.bg-blue {
+  background-color: #37b9f1;
+}
+
+.text-purple {
+  color: #8739f9;
+}
+
+.text-blue {
+  color: #37b9f1;
+}
+
+.text-white {
+  color: #f2f5f5;
+}
+
+.text-main {
+  color: #565360;
+}
+
+.text-label {
+  color: #908e9b;
+}
+
+.text-disabled {
+  color: #e1dfe9;
+}
+
+.right-max {
+  right: -500px;
 }
