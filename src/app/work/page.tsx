@@ -14,7 +14,7 @@ export default function Page() {
               <span className="text-label">.</span>
             </h1>
             <p className="text-center text-lg mt-5">
-              Selected work I've taken on in the past.
+              Selected work I&apos;ve taken on in the past.
             </p>
           </div>
         </div>

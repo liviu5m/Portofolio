@@ -7,7 +7,7 @@ export default function Story() {
         <div className="w-1/2 max-lg:w-full">
           <h1 className="text-6xl font-bold text-blue max-sm:text-4xl">Over the years,</h1>
           <p className="text-lg text-white mt-10 max-md:text-sm max-sm:text-sm">
-            I've built products for companies and businesses around the globe
+            I&apos;ve built products for companies and businesses around the globe
             ranging from marketing websites to complex solutions and enterprise
             apps with focus on fast, elegant and accessible user experiences.
             <br /><br />

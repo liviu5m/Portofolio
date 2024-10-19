@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import SwiperComponent from "@/components/Swiper";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
 import React from "react";
 
 export default function Page() {
@@ -130,7 +129,7 @@ export default function Page() {
           <p className="text-justify">
             In conclusion, Timevo is set to revolutionize the online watch
             shopping experience by combining a user-friendly interface with
-            powerful administrative tools. Whether you're a customer searching
+            powerful administrative tools. Whether you&apos;re a customer searching
             for the perfect watch or an admin managing the inventory, Timevo
             aims to deliver efficiency and satisfaction at every step. With its
             focus on security, transparency, and ease of use, Timevo is poised

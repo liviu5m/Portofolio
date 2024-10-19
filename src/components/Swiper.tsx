@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -33,9 +33,9 @@ const SwiperComponent = ({ project }: { project: string }) => {
       loop={true}
       modules={[Pagination, Navigation]}
     >
-      {arr.map((el) => {
+      {arr.map((el,id) => {
         return (
-          <SwiperSlide className="">
+          <SwiperSlide key={id}>
             <img
               src={`/images/work/${project}/img-${el}.png`}
               className="object-cover"

@@ -36,7 +36,7 @@ export default function Home() {
     const handleScroll = (event: WheelEvent) => {
       event.preventDefault();
 
-      let newScrollLevel = scrollLevel;
+      const newScrollLevel = scrollLevel;
       const scrollAmount = window.innerHeight * newScrollLevel;
       const currentScroll = window.scrollY;
 

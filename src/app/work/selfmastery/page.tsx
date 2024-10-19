@@ -3,7 +3,6 @@ import Header from "@/components/Header";
 import SwiperComponent from "@/components/Swiper";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
 import React from "react";
 
 export default function Page() {
@@ -125,7 +124,7 @@ export default function Page() {
           </ol>
           <h3 className="text-xl font-bold mt-5 mb-5">Conclusion</h3>
           <p className="text-justify">
-            SelfMastery is more than just a platform; it's a comprehensive
+            SelfMastery is more than just a platform; it&apos;s a comprehensive
             ecosystem designed to support your journey of personal development.
             By seamlessly integrating habit tracking, an extensive online
             library, a reflective journaling system, personalized fitness
