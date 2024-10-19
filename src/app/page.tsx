@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -71,7 +71,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main onClick={(e) => console.log(e.target)}>
+    <main>
       <Header
         dots={scrollLevel <= 5}
         active={scrollLevel}
@@ -83,7 +83,7 @@ export default function Home() {
       <Story />
       <Work />
       <Contact />
-      <Footer />
+      <Footer type="full" />
     </main>
   );
 }

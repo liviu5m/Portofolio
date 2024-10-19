@@ -32,7 +32,7 @@ export default function Header({
   }, [active]);
 
   return (
-    <div className={`w-screen ${dots ? "h-screen" : "h-fit"} fixed px-32 py-16 flex flex-col justify-between`}>
+    <div className={`w-screen ${dots ? "h-screen" : "h-fit"} fixed px-32 max-lg:px-10 max-md:px-5 py-16 flex flex-col z-50 justify-between`}>
       <div className="relative z-50 ">
         <div className="flex items-center justify-between">
           <div className="logo text-4xl font-bold tracking-widest text-blue">
@@ -46,14 +46,14 @@ export default function Header({
                 <button>
                   <FontAwesomeIcon
                     icon={faBars}
-                    className={`text-4xl  ${
+                    className={`text-4xl max-sm:text-blue-500  ${
                       active == 3 ? "text-blue" : "text-purple"
                     }`}
                     onClick={() => setIsOpen(true)}
                   />
                 </button>
                 <div
-                  className={`w-80 bg-white rounded-lg shadow-lg py-5 px-10 shadow-gray-400/40 absolute ${
+                  className={`w-80 bg-white rounded-lg shadow-lg py-5 z-50 px-10 shadow-gray-400/40 absolute ${
                     isOpen ? "-right-1 top-0" : "top-0 right-max"
                   }`}
                 >

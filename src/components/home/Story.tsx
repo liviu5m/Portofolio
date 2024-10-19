@@ -4,9 +4,9 @@ export default function Story() {
   return (
     <div className="h-screen flex items-center justify-center bg-purple">
       <div className="w-4/5 flex gap-20">
-        <div className="w-1/2">
-          <h1 className="text-6xl font-bold text-blue">Over the years,</h1>
-          <p className="text-lg text-white mt-10">
+        <div className="w-1/2 max-lg:w-full">
+          <h1 className="text-6xl font-bold text-blue max-sm:text-4xl">Over the years,</h1>
+          <p className="text-lg text-white mt-10 max-md:text-sm max-sm:text-sm">
             I've built products for companies and businesses around the globe
             ranging from marketing websites to complex solutions and enterprise
             apps with focus on fast, elegant and accessible user experiences.
@@ -27,7 +27,7 @@ export default function Story() {
             robust learning platform.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 max-lg:hidden">
           <img src="/images/story.jpg" className="rounded-lg shadow-lg shadow-blue-500" alt="" />
         </div>
       </div>
